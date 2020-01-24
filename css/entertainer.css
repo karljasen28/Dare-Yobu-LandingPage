@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.heading_1 {
+  color: #ff7f50;
+}
+.registration_button {
+  background-color: #ff7f50;
+  color: white;
+  border: 1px solid #ff7f50;
+  padding: 20px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.registration_button:hover {
+  background-color: white;
+  color: #ff7f50;
+  border: 1px solid #ff7f50;
+  padding: 20px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.gradient-section {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+}
+.entertainer-description {
+  text-align: center;
+}
+.earnings-headings {
+  color: #ff7f50;
+  font-weight: bold;
+}
+.card1 {
+  width: 450px;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
+}
+.total {
+  font-weight: bold;
+  color: #ff7f50;
+}
+.tips {
+  color: white;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.safety_features {
+  color: #ff7f50;
+  font-weight: bold;
+}
+.card2 {
+  width: 700px;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 200px;
+}
+li {
+  font-size: 22px;
+}
+.accordion_icon {
+  background-color: #ff7f50;
+  border: none;
+}
+.faq_heading {
+  color: #ff7f50;
+  font-weight: bold;
+}
+.anchor_footer {
+  font-size: 13px;
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.anchor_footer:hover {
+  color: #ff7f50;
+  text-decoration: none;
+}
+.li_footer {
+  border-right: 1px solid white;
+  padding: 0;
+  margin: 0;
+}
+.footer_div {
+  background-color: #323843;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .card1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card1 h2{
+    font-size: 16px;
+  }
+
+  .card1 h5{
+    font-size: 12px;
+  }
+
+  .card1 h3{
+    font-size: 15px;
+  }
+
+  .card2{
+    width: 300px;
+    padding-left: 50px;
+  }
+
+  .card2 ul li{
+    font-size: 12px;
+  }
+
+  #tips h5{
+    font-size: 15px;
+    margin-top: -50px;
+  }
+
+  #tips h1{
+    font-size: 20px;
+  }
+
+  #tips h4{
+    font-size: 15px;
+  }
+
+  #home h1{
+    font-size: 20px;
+  }
+
+  #about h1{
+    font-size: 20px;
+  }
+
+  #about h5{
+    font-size: 15px;
+  }
+
+  .entertainer-description h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .entertainer-description h4{
+    font-size: 15px;
+  }
+
+  .entertainer-description h5{
+    margin-top: -30px;
+    font-size: 15px;
+  }
+
+  #earnings h1{
+    font-size: 20px;
+  }
+
+  #earnings h5{
+    font-size: 15px;
+  }
+
+  #tips h1{
+    font-size: 20px;
+  }
+
+  #tips h4{
+    font-size: 15px;
+  }
+
+  #tips h5{
+    font-size: 15px;
+  }
+
+  #safety-and-security h1{
+    font-size: 20px;
+  }
+
+  #safety-and-security h4{
+    font-size: 15px;
+  }
+
+  #safety-and-security h5{
+    font-size: 15px;
+  }
+
+  #faq h1{
+    font-size: 20px;
+  }
+
+  #faq h4{
+    font-size: 15px;
+  }
+
+  #faq h5{
+    font-size: 15px;
+  }
+
+  #faq .faq_heading{
+    padding-bottom: 0;
+  }
+}

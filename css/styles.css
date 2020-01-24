@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#home{
+    padding-bottom: 70px;
+}
+
+#introduction{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#how-to-use{
+    padding-top: 50px;
+}
+
+#features{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#features .container .row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#download{
+    background-image: linear-gradient(120deg, #F6D365 0%, #FDA085 100%);
+}
+
+#blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#blog-container{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.btn-entertainer{
+    background-color: #FF7F50;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+}
+
+.img-rad{
+    border-radius: 100px;
+}
+
+.text-default{
+    color: #FF7F50;
+}
+
+.bg-grad{
+    background-image: linear-gradient(120deg, #F6D365 0%, #FDA085 100%);
+}
+
+.bg-white{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 11px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.btn-register{
+    padding: 10px 70px;
+    background-color: #ffffff;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.reg{
+    margin-top: 8%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    h1, h2{
+        font-size: 20px;
+    }
+
+    h5, h4, h3{
+        font-size: 15px;
+    }
+
+    #introduction{
+        padding-top: 0px !important;
+    }
+
+    #how-to-use{
+        padding-top: 10px !important;
+    }
+
+    #introduction h3{
+        margin-top: 5px;
+    }
+
+    #features h5{
+        margin-top: 5px;
+    }
+
+    #features img{
+        width: 50px;
+    }
+
+    #download .img-fluid1{
+        display: none;
+    }
+
+    #download .img-fluid{
+        margin-top: 10px;
+    }
+}
